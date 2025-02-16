@@ -8,6 +8,7 @@ img = cv2.imread(image_path)
 
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
+#Range of values for red in the HSV
 lower_red1 = np.array([0, 120, 70])
 upper_red1 = np.array([10, 255, 255])
 lower_red2 = np.array([170, 120, 70])
